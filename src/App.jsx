@@ -1,11 +1,16 @@
-import './App.css'
+import './App.css';
+import AboutMe from './AboutMe';
+import MyWork from './MyWork';
+import ContactMe from './ContactMe';
 
 function App() {
   
   return (
-    <>
-      <h1>Hello, World</h1>
-    </>
+    <div className='App'>
+      <AboutMe/>
+      <MyWork/>
+      <ContactMe/>
+    </div>
   )
 }
 

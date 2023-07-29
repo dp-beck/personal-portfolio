@@ -1,0 +1,60 @@
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; 
+    position: relative;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.about-me::before {
+    content: "";
+    background: linear-gradient(-1100deg, #fdcd3b 60%, #ffed4b 60%);    
+    position: absolute;
+    left: -80px;
+    top: -80%;
+    width: 150%;
+    height: 150%;
+    z-index: -1;
+    transform: rotate(-10deg);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    overflow: hidden;
+
+}
+
+.profile-photo-1-wrapper {
+    place-self: center end;
+    position: relative;
+    color: white;
+}
+
+.profile-photo-1 {
+    height: auto;
+    width: 350px;
+    float: right;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+}
+
+.profile-photo-1-wrapper h1 {
+    position: absolute;
+    font-weight: 800;
+    bottom: -25px;
+    right: 15px;
+}
+.about-me-card {
+    background-color: white;
+    width: 75%;
+    height: 75%;
+    place-self: center start;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+}
