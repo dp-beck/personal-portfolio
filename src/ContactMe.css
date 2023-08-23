@@ -12,6 +12,12 @@
 
 }
 
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+}
+
 .profile-photo-2 {
     height: auto;
     width: 450px;
@@ -26,7 +32,21 @@
     display: flex;
 }
 
-.social-media-links {
+.social-media-links-in-contact-section {
     justify-content: start;
     padding: 0;
+}
+
+@media (max-width:768px) {
+    .profile-photo-2 {
+        width: 350px;
+    }
+
+    .contact-me {
+        margin: 0;
+    }
+
+    .social-media-links-in-contact-section {
+        display: flex;
+    }
 }

@@ -5,3 +5,8 @@
   overflow-x: hidden;
 }
 
+@media (max-width: 768px) {
+  .App {
+    grid-template-rows: 1fr 3fr 1fr;
+  }
+}

@@ -58,3 +58,44 @@
     justify-content: flex-end;
     gap: 1rem;
 }
+
+@media (max-width: 768px) {
+    
+    .about-me {
+        display: block;
+        padding-left: 20%;
+        padding-right: 20%;
+        width: 100%;
+    }
+
+
+    .profile-photo-1-wrapper {
+        display: inline;
+    }
+
+    .profile-photo-1 {
+        width: 275px;
+        float: left;
+        transform: translate(-2rem, -2rem);
+    }
+
+    .about-me-card {
+        display: block;
+        width: 65%;
+        height: fit-content;
+        padding-bottom: 10px;
+
+    }
+
+    .social-media-links {
+        display: none;
+    }
+
+    .profile-photo-1-wrapper h1 {
+        position: absolute;
+        font-weight: 800;
+        bottom: -40px;
+        right: -100px;
+        width: 200px;
+    }
+}

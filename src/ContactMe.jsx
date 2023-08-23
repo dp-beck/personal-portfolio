@@ -20,7 +20,7 @@ function ContactMe() {
                     <p>fred.t.jones@fake-email.org</p>
                 </div>
 
-                <ul className="social-media-links">
+                <ul className="social-media-links-in-contact-section">
                     <li>
                         <a href="https://github.com/dp-beck">
                             <svg viewBox="0 0 128 128">

@@ -10,3 +10,11 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+@media (max-width: 768px) {
+
+    .my-work ul {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
