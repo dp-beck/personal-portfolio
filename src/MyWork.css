@@ -18,3 +18,17 @@
         grid-template-rows: repeat(3, 1fr);
     }
 }
+
+@media (max-width: 600px) {
+    .my-work ul {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 5rem;
+    }
+
+    .my-work-header {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
