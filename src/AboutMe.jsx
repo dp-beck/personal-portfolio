@@ -12,10 +12,11 @@ function AboutMe() {
             </div> 
             <div className="about-me-card">
                 <h1>About Me</h1>
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto in 
-                    voluptatum velit asperiores voluptatem rem dolores sapiente optio deserunt 
-                    rerum, sunt harum dolor soluta, aliquid reprehenderit minima provident 
-                    voluptate possimus!
+                <p> Hi! 👋 I&apos;m Dan, a full-stack web developer. I have been developing web applications
+                    using React, Node.js &#40;Express&#41;, and MongoDB, but I am constantly thirsting to learn more
+                    and integrate new technologies into my toolkit! In a past life, I studied philosophy in graduate school
+                    and still have a strong passion for the subject. Take a look at some of my projects below. I would
+                    love to connect on all things web development or philosophy!
                 </p>
                 <ul className="social-media-links">
                     <li>
